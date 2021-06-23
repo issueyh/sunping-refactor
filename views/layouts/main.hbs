@@ -13,42 +13,75 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <img src="/img/三品logo.jpg" alt="">
-            <a class="navbar-brand" href="/">三品科技</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <img src="/img/三品logo.jpg" alt="">
+                <a class="navbar-brand" href="/">三品科技</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">服務項目</a>
-                    </li>
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            檢驗線
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">車輛檢驗系統</a>
-                            <a class="dropdown-item" href="#">機車檢驗系統</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">檢驗硬體架構</a>
-                        </div>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">聯絡我們</a>
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-outline-info login">登入</button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">服務項目</a>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                檢驗線
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">車輛檢驗系統</a>
+                                <a class="dropdown-item" href="#">機車檢驗系統</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">檢驗硬體架構</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">聯絡我們</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-info login">登入</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        {{{ body }}}
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="icon"></div>
+                    <div class="cominfo">
+                        <p>TEL：886-2-3765-1488</p>
+                        <p>FAX：886-2-8787-5665</p>
+                        <p>E-mail：sunpinge@ms33.hinet.net</p>
+                    </div>
+                </div>
+                <hr />
+                <div class="col-md-6">
+                    <div class="icon"></div>
+                    <div class="cominfo">
+                        <p>110臺北市信義區松隆路272號5樓</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="copyright" class="col-md-12">
+                    <p>© Copyright 2021 Sun Pin Technology | All Rights Reserved
+                    </p>
+                </div>
             </div>
         </div>
-    </nav>
-
-    {{{ body }}}
+    </footer>
 
     <script src="/javascripts/jquery-3.3.1.js"></script>
     <script src="/javascripts/popper.js"></script>

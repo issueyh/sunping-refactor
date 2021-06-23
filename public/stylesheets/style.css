@@ -9,6 +9,13 @@ nav img {
     margin-right: 2px;
     border-radius: 50px;
 }
+#copyright {
+    text-align: center;
+    padding: 7px 15px 0;
+    font-weight: bolder;
+    color: #0179cb;
+    font-size: 18px;
+}
 
 .carousel, .carousel-inner img {
     max-width: 1000px;
